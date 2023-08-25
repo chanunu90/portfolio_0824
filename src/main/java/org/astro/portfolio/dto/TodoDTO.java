@@ -55,14 +55,12 @@ public class TodoDTO {
     // for (String image : images) {
       
       if(images!=null){
-        // picture.add(images.split("\\.")[0] + "." + "png"); 
-        // return picture;
-        picture = images.split("\\.")[0] + "." + "png"; 
+
+        picture = images.split("\\.")[0] + "." + "jpg"; 
 
         return picture;
       }
-    // }
-    // return picture;
+
     return "";
   }
 

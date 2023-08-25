@@ -12,7 +12,7 @@ public class PageResponseDTO<E> {
 
   private long total;
 
-  @Builder(builderMethodName =  "withAll")
+  @Builder(builderMethodName = "withAll")
   public PageResponseDTO(List<E> list, long total ){
     this.list = list;
     this.total = total;
